@@ -1,59 +1,42 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
 }
 
-body {
-    background-color: #f4f4f4;
-}
-
-nav {
-    background: #333;
-    color: white;
+/* Navbar Styling */
+.navbar {
+    background-color: #222;
+    padding: 15px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 10%;
+    justify-content: center;
 }
 
-.logo {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
+.navbar a {
     color: white;
     text-decoration: none;
+    padding: 14px 20px;
     font-size: 18px;
 }
 
-nav ul li a:hover {
-    color: #ffcc00;
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
 }
 
-header {
-    text-align: center;
-    padding: 100px 20px;
-    background: url('background.jpg') no-repeat center center/cover;
-    color: white;
+/* Heading Styling */
+h1 {
+    font-size: 32px;
+    color: #333;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-header h1 {
-    font-size: 40px;
-}
-
-header p {
-    font-size: 20px;
+/* Paragraph Styling */
+p {
+    font-size: 18px;
+    color: #555;
     margin-top: 10px;
 }
