@@ -7,21 +7,21 @@ body {
 }
 
 /* Navbar Styling */
-.navbar {
-    background-color: #222;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
+.navbar{
+    background-color:#222;
+    padding:15px;
+    display:flex;
+    justify-content:center;
 }
 
 .navbar a {
     color: white;
-    text-decoration: none;
+    text-decoration:none;
     padding: 14px 20px;
     font-size: 18px;
 }
 
-.navbar a:hover {
+.navbar a:hover{
     background-color: #575757;
     border-radius: 5px;
 }
