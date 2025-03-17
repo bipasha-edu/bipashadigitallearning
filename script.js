@@ -1,11 +1,8 @@
 function togglemenu(){
-  var sidebar=document.getElementById("closeMenu").addEventListener("click", function(){
-  document.querySelector(".sidebar").classList.toggle=("hidden");
+  document.getElementById("menuToggle").addEventListener("click", function(){
+  document.querySelector(".sidebar").classList.add("show");
   });
-
-  if(sidebar.style.display==="block"){
-    sidebar.style.display="none";
-  } else {
-  sidebar.style.display="block";
-  }
+  document.getElementById("closeMenu").addEventListener("click", function(){
+  document.querySelector(".sidebar").classList.remove("show"); 
+  });
 }
