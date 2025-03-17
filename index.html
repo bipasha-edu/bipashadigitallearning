@@ -5,16 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bipasha Digital Learning</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <nav>
-  <div class="logo">Bipasha Digital Learning</div>
-  <ul>
-   <li><a href="index.html">Home</a></li>
-   <li><a href="courses.html">Courses</a></li>
-   <li><a href="contact.html">Contact</a></li>
-  </ul>
-  </nav>
+  <div class="navbar">
+    <div class="logo">
+     <img src="C:\Users\hp\Pictures\logo.jpg" alt="logo">
+    </div>
+    <button class="menu-btn" onclick="togglemenu()">&#9776;</button>
+  </div>
+  <div class="sidebar" id="sidebar">
+        <button class="close-btn" onclick="toggleMenu()">✖</button>
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">My Courses</a>
+        <a href="#">All Courses</a>
+        <a href="#">Computer Quiz</a>
+        <a href="#">Certificate Verification</a>
+        <a href="#">Contact</a>
+        <button class="logout">Logout</button>
+    </div>
 <header>
 <h1>Welcome to Bipasha Digital Learning</h1>
 <p>This is the homepage of Bipasha Digital Learning.</p>  
