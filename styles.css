@@ -14,6 +14,7 @@ body {
     justify-content:space-between;
     align-items:center;
     box-shadow:0 4px 8px rgba(0,0,0,0.1);
+    position:relative;
 }
 
 .logo img {
@@ -25,6 +26,10 @@ body {
     background:none;
     border:none;
     cursor:pointer;
+    position:absolute;
+    top:15px;
+    left:15px;
+    color:white;
 }
 
 .sidebar {
