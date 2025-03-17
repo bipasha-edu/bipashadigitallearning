@@ -30,13 +30,16 @@ body {
 .sidebar {
     position: fixed;
     top: 0;
-    left: -250px;
+    left:0;
     width: 250px;
     height: 100%;
-    background: white;
+    background:#222;
+    color:white;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding-top: 20px;
+    display:none;
+    padding-top:20px;
 }
 
 .sidebar a {
