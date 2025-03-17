@@ -1,6 +1,6 @@
 function togglemenu(){
   var sidebar=document.getElementById("closeMenu").addEventListener("click", function(){
-  document.querySelector(".sidebar").style.display="none";
+  document.querySelector(".sidebar").classList.toggle=("hidden");
   });
 
   if(sidebar.style.display==="block"){
