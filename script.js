@@ -1,8 +1,13 @@
-function togglemenu(){
-  document.getElementById("menuToggle").addEventListener("click", function(){
-  document.querySelector(".sidebar").classList.add("show");
-  });
-  document.getElementById("closeMenu").addEventListener("click", function(){
-  document.querySelector(".sidebar").classList.remove("show"); 
-  });
-}
+document.addEventListener("DOMContentLoaded", function() {
+    const menuBtn = document.querySelector(".menu-btn");
+    const sidebar = document.querySelector(".sidebar");
+    const closeBtn = document.querySelector(".close-btn");
+
+    menuBtn.addEventListener("click", function() {
+        sidebar.classList.add("open");
+    });
+
+    closeBtn.addEventListener("click", function() {
+        sidebar.classList.remove("open");
+    });
+});
