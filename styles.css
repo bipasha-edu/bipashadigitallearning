@@ -8,7 +8,7 @@ body {
 
 /* Navbar Styling */
 .navbar{
-    background-color:#008080;
+    background-color:#555;
     padding:15px;
     display:flex;
     justify-content:space-between;
